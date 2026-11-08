@@ -42,8 +42,7 @@ def main():
         print("\n TRAIN FARE ")
         print("Passenger age: {}".format(age_input_int))
         print("Status: {}".format(status))
-        print("Time of the day: {}".format(time_of_day))
-        print("Total fare: {}$".format(fare, ".2f"))
+        print("Time of the day: {}".format(time_of_day)
 
         if age_input_int < 12:
             print("Total fare: Free")
